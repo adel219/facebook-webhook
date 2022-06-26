@@ -1,0 +1,19 @@
+{
+  "name": "chatbot-webhook",
+  "version": "0.1.0",
+  "description": "Webhook handler for messenger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "body-parser": "~1.15.0",
+    "express": "~4.13.3",
+    "express-x-hub": "^1.0.4",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "objection": "^3.0.1"
+  }
+}
